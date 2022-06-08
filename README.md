@@ -12,9 +12,8 @@
 - Step 1. git clone Ardupilot
 	```
 	$ cd ~/AL_STIL
-	$ mkdir apm
-	$ cd apm
-	$ git clone -b Copter-4.1.1 https://github.com/ardupilot/ardupilot
+	$ mkdir apm && cd apm
+	$ git clone -b Copter-4.1.1 https://github.com/ardupilot/ardupilot && cd ardupilot
 	$ git submodule update --init --recursive
 	```
 
@@ -39,8 +38,7 @@ Due to a bug in current gazebo release from ROS, please update gazebo with OSRF 
 - Step 1. git clone ardupilot_gazebo related on Gazebo World & Models
 	````
 	$ cd ~/AL_SITL/ardupilot_gazebo
-	$ mkdir build
-	$ cd build
+	$ mkdir build && cd build
 	$ cmake ..
 	$ make -j4
 	$ sudo make install

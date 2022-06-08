@@ -36,7 +36,7 @@ If you don't have it yet, install ROS with `sudo apt install ros-melodic-desktop
 (follow instruction here http://wiki.ros.org/melodic/Installation/Ubuntu).  
 Due to a bug in current gazebo release from ROS, please update gazebo with OSRF version from http://gazebosim.org/tutorials?tut=install_ubuntu
 
-- Step 1. git clone ardupilot_gazebo relative on Gazebo World & Models
+- Step 1. git clone ardupilot_gazebo related on Gazebo World & Models
 	````
 	$ cd ~/AL_SITL/ardupilot_gazebo
 	$ mkdir build
@@ -46,7 +46,7 @@ Due to a bug in current gazebo release from ROS, please update gazebo with OSRF 
 	$ sudo make install
 	````
 
-- Step 2. Add path relative on gazebo source
+- Step 2. Add path related on gazebo source
 	````
 	$ echo 'source /usr/share/gazebo-9/setup.sh' >> ~/.bashrc
 	$ echo 'export GAZEBO_MODEL_PATH=/home/{USER_NAME}/AL_SITL/ardupilot_gazebo/models:$GAZEBO_MODEL_PATH' >> ~/.bashrc

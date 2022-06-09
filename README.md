@@ -112,7 +112,7 @@ Due to a bug in current gazebo release from ROS, please update gazebo with OSRF 
 
 	Object detection model must be exported by tensorflow pipeline
 	```
-	$ conda activate heliipy37-tf2
+	$ conda activate heli-py37-tf2
 	$ rosrun gazebo_drone landing_test.py -m ~/AL_SITL/object_detection/{MODEL}
 	```
 

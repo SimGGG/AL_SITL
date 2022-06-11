@@ -1,16 +1,16 @@
 ardupilot_gazebo/build/
-ardupilot_gazebo/Build/
 ardupilot_gazebo/.idea/
 
 
 # Byte-compiled
-/landing_scripts/__pycache__/
+__pycache__/
 
 # need for building
 apm/
 catkin_ws/
 
-# OBD Model
-object_detection/*
+
+# object detection model
+exported-models/
 
 

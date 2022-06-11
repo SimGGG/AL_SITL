@@ -19,7 +19,7 @@
 
 - Step 2. Add Ardupilot firmware path
 	```
-	$ echo 'export PATH=$PATH:/home/{USER_NAME}/AL_SITL/apm/ardupilot/Tools/autotest' >> ~/.bashrc'
+	$ echo 'export PATH=$PATH:/home/$USER/AL_SITL/apm/ardupilot/Tools/autotest' >> ~/.bashrc'
 	```
 
 - Step 3. (Optional) Check available board list
@@ -65,7 +65,7 @@ Due to a bug in current gazebo release from ROS, please update gazebo with OSRF 
 
 - Step 2. Add ROS source path
 	```
-	$ echo "source /home/{USER_NAME}/AL_SITL/catkin_ws/devel/setup.bash" >> ~/.bashrc
+	$ echo "source /home/$USER/AL_SITL/catkin_ws/devel/setup.bash" >> ~/.bashrc
 	```
 
 - Step 3. Install `ros_numpy`

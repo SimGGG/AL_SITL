@@ -19,7 +19,7 @@
 
 - Step 2. Add Ardupilot firmware path
 	```
-	$ echo 'export PATH=/home/{USER_NAME}/AL_SITL/apm/ardupilot/Tools/autotest' >> ~/.bashrc
+	$ echo 'export PATH=$PATH:/home/{USER_NAME}/AL_SITL/apm/ardupilot/Tools/autotest' >> ~/.bashrc'
 	```
 
 - Step 3. (Optional) Check available board list
